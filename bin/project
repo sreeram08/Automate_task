@@ -1,0 +1,2 @@
+require = require(`esm`)(module/*, options*/)
+require('../controllers/cliController').cli(process.argv)
